@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listCourseSetup">
+
+    <TextView
+        android:id="@+id/textViewInstructorName"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Instructor"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="8dp"
+        android:layout_height="27dp"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewGrade"
+        android:layout_width="9dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Grade"
+        android:textSize="20sp" />
+
+</LinearLayout>

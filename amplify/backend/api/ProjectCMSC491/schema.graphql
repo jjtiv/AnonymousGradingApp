@@ -1,0 +1,13 @@
+type Barcodes @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  studentID: String
+  exam: String
+  barcode: String
+}
+
+type ClassRoster @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  studentID: String
+  studentName: String
+}
+ 
